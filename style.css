@@ -1,0 +1,42 @@
+
+.body{
+	background-color: #e4eff1;
+}
+
+/*navbar styling*/
+.navbar{
+	position: fixed;
+	background: crimson;
+	padding: 15px 0;
+	width: 100%;
+	font-family: 'ubuntu';
+}
+.navbar .logo a{
+	font-size: 35px;
+	font-weight: 600;
+	color: #fff;
+}
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+}
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a{
+	color:#fff;
+	font-size: 18px;
+	font-weight: 400;
+}
+h1{
+	color: skyblue;
+}
+
+ 
