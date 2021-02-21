@@ -5,16 +5,19 @@
 }
 body{
 	background-color:#ccffff;
-	margin: 0;
+	 margin:0px;
+    padding: 0px;
 	text-align: center;
-	padding: 20px;
 	font-family: verdana, monospace;
 }
 h1{
 	color: #11999E;
 	font-family: Sacramento;
-	margin: 0;
 	font-size: 70px;
+}
+.navbar{
+	padding: 10px;
+	margin-bottom: 30px;
 }
 h2{
 	color: #11999E;
@@ -55,6 +58,7 @@ width: 80px;
 }
 .call{
 	width: 80px;
+	margin: auto;
 }
 .icons:hover{
 	width: 100px;
@@ -103,7 +107,7 @@ width: 80px;
 	display: inline-block;
 	background-color:  #ffe0b3;
 	width: 50%;
-	margin: 10px;
+	margin: auto;
 	border: 5px groove  #ffff80;
 	padding: 20px; 
 		
