@@ -53,15 +53,17 @@ p {
 }
 
 .icons {
-	width: 80px;
-	float: left;
-	padding: 20px;
-	margin: 20px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+	border-radius: 100%;
+	
 }
 
 .call {
 	width: 80px;
-	margin: auto;
+	margin-left: auto;
 }
 
 .icons:hover {
@@ -76,6 +78,7 @@ p {
 	color: #fff;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 0;
 }
 
 .btn {
@@ -119,13 +122,6 @@ p {
 	text-align: left;
 }
 
-.card2 {
-	text-align: right;
-}
-
-.icon2 {
-	float: right;
-}
 
 .mail {
 	width: 30px;
